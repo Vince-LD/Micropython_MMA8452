@@ -12,7 +12,7 @@ See examples/simpletest.py for a demo of the usage.
 Documentation
 =============
 
-The documentation liked below is for the original MMA8451 library. However, the usage is same so most information linked in the documentation applies with this library. 
+The documentation linked below is for the original MMA8451 library. However, the usage is same so most information linked in the documentation applies with this library. 
 
 API documentation for this library can be found on `Read the Docs <https://docs.circuitpython.org/projects/mma8451/en/latest/>`_.
 
