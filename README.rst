@@ -1,4 +1,11 @@
+Disclaimer
+=============
+
+This repo has just been forked so the library does not work at all for now! I will update this description when it is done.
+
+
 Introduction
+=============
 
 Micropython module for the MMA8452 3 axis accelerometer based on the adafruit circuit python MMA8451 library.
 
