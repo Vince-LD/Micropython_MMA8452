@@ -1,61 +1,8 @@
 Introduction
-============
 
-.. image:: https://readthedocs.org/projects/adafruit-circuitpython-mma8451/badge/?version=latest
-    :target: https://docs.circuitpython.org/projects/mma8451/en/latest/
-    :alt: Documentation Status
+Micropython module for the MMA8452 3 axis accelerometer based on the adafruit circuit python MMA8451 library.
 
-.. image:: https://raw.githubusercontent.com/adafruit/Adafruit_CircuitPython_Bundle/main/badges/adafruit_discord.svg
-    :target: https://adafru.it/discord
-    :alt: Discord
-
-.. image:: https://github.com/adafruit/Adafruit_CircuitPython_MMA8451/workflows/Build%20CI/badge.svg
-    :target: https://github.com/adafruit/Adafruit_CircuitPython_MMA8451/actions/
-    :alt: Build Status
-
-.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
-    :target: https://github.com/psf/black
-    :alt: Code Style: Black
-
-CircuitPython module for the MMA8451 3 axis accelerometer.
-
-**Note:** Older versions of the Raspberry Pi firmware do not have I2C clock stretching support so they don't work well with the MMA. Please ensure your firmware is updated to the latest version before continuing and slow down the I2C as explained here: https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/i2c-clock-stretching
-
-Dependencies
-=============
-This driver depends on:
-
-* `Adafruit CircuitPython <https://github.com/adafruit/circuitpython>`_
-* `Bus Device <https://github.com/adafruit/Adafruit_CircuitPython_BusDevice>`_
-
-Please ensure all dependencies are available on the CircuitPython filesystem.
-This is easily achieved by downloading
-`the Adafruit library and driver bundle <https://github.com/adafruit/Adafruit_CircuitPython_Bundle>`_.
-
-Installing from PyPI
-====================
-
-On supported GNU/Linux systems like the Raspberry Pi, you can install the driver locally `from
-PyPI <https://pypi.org/project/adafruit-circuitpython-mma8451/>`_. To install for current user:
-
-.. code-block:: shell
-
-    pip3 install adafruit-circuitpython-mma8451
-
-To install system-wide (this may be required in some cases):
-
-.. code-block:: shell
-
-    sudo pip3 install adafruit-circuitpython-mma8451
-
-To install in a virtual environment in your current project:
-
-.. code-block:: shell
-
-    mkdir project-name && cd project-name
-    python3 -m venv .venv
-    source .venv/bin/activate
-    pip3 install adafruit-circuitpython-mma8451
+Modified for use on the ESP32 micropython port.
 
 Usage Example
 =============
